@@ -1,0 +1,150 @@
+{
+  "site": {
+    "title": "Avalanche Lexicon — WWII Testimony Vocabulary",
+    "navLogo": "Avalanche Lexicon"
+  },
+  "hero": {
+    "badge": "AVALANCHE · EU CERV Programme",
+    "title": "Avalanche <em>Lexicon</em>",
+    "description": "This lexicon maps the vocabulary of WWII testimony across Greek and Italian oral histories — exploring how women and men, Italians and Greeks, and different communities within Italy and Greece narrate the same catastrophe in different words.",
+    "stats": {
+      "testimonies": {
+        "value": "397",
+        "label": "Testimonies"
+      },
+      "greek": {
+        "value": "261",
+        "label": "Greek"
+      },
+      "italian": {
+        "value": "136",
+        "label": "Italian"
+      },
+      "archives": {
+        "value": "5",
+        "label": "Archives"
+      }
+    },
+    "scrollHint": "Explore"
+  },
+  "nav": {
+    "corpora": "Archives",
+    "themes": "Themes",
+    "explorer": "Explorer",
+    "keywords": "Keyness",
+    "gender": "Gender",
+    "corpusColloc": "Collocations",
+    "entities": "Entities",
+    "concordance": "Concordances"
+  },
+  "sections": {
+    "corpora": {
+      "label": "01 — The Archives",
+      "title": "Five oral history collections",
+      "description": "The lexicon draws on testimonies from five archives spanning Greece and Italy — each preserving a different facet of wartime and post-war memory."
+    },
+    "themes": {
+      "label": "02 — Thematic Landscape",
+      "title": "Browse by theme",
+      "description": "Every word in the lexicon belongs to one of these themes. Click a theme to see its words — then click any word to explore its concordances, collocations, and keyness profile."
+    },
+    "explorer": {
+      "label": "03 — Lexicon Explorer",
+      "title": "Browse the full lexicon",
+      "description": "Search, filter, and explore all headwords. Click any card for the full profile: concordances, collocations, and keyness data."
+    },
+    "keywords": {
+      "label": "04 — Distinctive Vocabulary",
+      "title": "Words that set each group apart",
+      "description": "Which words are used significantly more by one group than another? Higher scores mean the word is more characteristic of that group. Compare across archives, gender, and geography."
+    },
+    "gender": {
+      "label": "05 — Gendered Memory",
+      "title": "How men and women remember differently",
+      "description": "Which words do men and women use differently when giving testimony? Bars to the right mark words used more by women; bars to the left, words used more by men. Longer bars mean a stronger difference."
+    },
+    "corpusColloc": {
+      "label": "06 — Word Pairs",
+      "title": "Words that appear together",
+      "description": "Which words are regularly paired in testimony? Browse by grammatical pattern to see how nouns combine with other nouns, how adjectives describe nouns, which verbs go with which objects, and which people or places trigger which actions."
+    },
+    "entities": {
+      "label": "07 — Named Entities",
+      "title": "The people, places, and institutions of testimony",
+      "description": "Named entity recognition across 397 testimonies identified 46,664 entity mentions. The bars show how many testimonies reference each entity."
+    },
+    "concordance": {
+      "label": "08 — Concordance Search",
+      "title": "Words in context",
+      "description": "Search for any word and see the actual sentences where survivors used it. Each line shows the word highlighted in its original testimony context."
+    }
+  },
+  "archives": [
+    {
+      "name": "United States Holocaust Memorial Museum",
+      "short": "USHMM",
+      "lang": "greek",
+      "testimonies": 53,
+      "female": 13,
+      "male": 40,
+      "description": "Filmed testimonies of Holocaust survivors and witnesses."
+    },
+    {
+      "name": "Istorima",
+      "short": "Istorima",
+      "lang": "greek",
+      "testimonies": 181,
+      "female": 181,
+      "male": 0,
+      "description": "Oral history archive collecting life stories from people in Greece. Not exclusively Holocaust testimonies but broader life narratives."
+    },
+    {
+      "name": "Memories of the Occupation in Greece",
+      "short": "MoG",
+      "lang": "greek",
+      "testimonies": 27,
+      "female": 27,
+      "male": 0,
+      "description": "Testimonies focused on the experience of German occupation in Greece, including resistance, famine, and daily life under occupation."
+    },
+    {
+      "name": "CDEC — Italian Testimonies",
+      "short": "CDEC Italy",
+      "lang": "italian",
+      "testimonies": 101,
+      "female": 48,
+      "male": 53,
+      "description": "The Foundation for Contemporary Jewish Documentation in Milan preserves testimonies of Italian Jewish survivors. This corpus concerns testimonies from survivors and witnesses in Italy."
+    },
+    {
+      "name": "CDEC — Rhodes Collection",
+      "short": "CDEC Rhodes",
+      "lang": "italian",
+      "testimonies": 35,
+      "female": 30,
+      "male": 5,
+      "description": "Testimonies from the Jewish community of Rhodes."
+    }
+  ],
+  "ui": {
+    "searchPlaceholder": "Search headwords...",
+    "kwicSearchPlaceholder": "Search for a word (e.g. σχολείο, mamma, πόλεμος)...",
+    "kwicSearchButton": "Search",
+    "allArchivesFilter": "All archives",
+    "allGendersFilter": "All genders",
+    "femaleFilter": "Female",
+    "maleFilter": "Male",
+    "filterAll": "All",
+    "filterGreek": "Greek",
+    "filterItalian": "Italian",
+    "concordanceLoading": "Searching concordances...",
+    "concordanceLoaded": "Enter a search term above.",
+    "concordanceError": "No concordances available for this term.",
+    "modalConcordances": "Concordances",
+    "modalCollocations": "Collocations",
+    "modalKeyness": "Keyness Profile",
+    "modalBySubcorpus": "By Subcorpus",
+    "modalNoConcordances": "No concordance lines found for this word.",
+    "modalConcordanceUnavailable": "No concordance lines found for this word."
+  }
+}
